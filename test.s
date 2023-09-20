@@ -12,6 +12,7 @@ main:                                   # @main
 	movl	4(%rsp), %eax
 	addl	$30, %eax
 	movl	%eax, 4(%rsp)
+	movl	$100, 4(%rsp)
 	movl	4(%rsp), %esi
 	leaq	.L.str(%rip), %rdi
 	movb	$0, %al

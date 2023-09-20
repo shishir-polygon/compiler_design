@@ -1,3 +1,5 @@
 sat 20 to a
 jug 30 to a
+if a == 60
+sat 100 to a
 shera a
